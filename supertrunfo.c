@@ -41,7 +41,7 @@ int main () {
 
 
 
-   printf("Insira os dados da carta 2\n");
+    printf("Insira os dados da carta 2\n");
     printf("Insira a inicial do estado 2:\n");
     scanf("%c", &estado2);
     printf("A inicial é: %c\n", estado2);

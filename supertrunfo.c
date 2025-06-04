@@ -7,11 +7,17 @@ int main () {
     char codigo1[20], codigo2[20];
     char nomecidade1[20], nomecidade2[20];
     int populacao1, populacao2;
+    int resultadopopulacao; 
     float area1, area2; 
+    float resultadoarea;
     float pib1, pib2;
+    float resultadopib;
     float densidade1, densidade2;
+    float resultadodensidade;    
     int ptsturisticos1, ptsturisticos2;
+    int resultadoptsturisticos;
     float pibper1, pibper2;
+    float resultadopibper;
 
     printf("Insira os dados da carta 1\n");
     printf("Insira a inicial do estado 1:\n");
@@ -82,6 +88,22 @@ int main () {
 
     printf("O pib per capta é de:\n");
     printf("%f\n", pibper2 = pib2/populacao2);
+
+
+
+    printf("*** RESULTADO ***:\n");
+    printf("*** POPULAÇÃO ***:\n");
+    printf("resultado da população: %i\n", resultadopopulacao = populacao1 > populacao2);
+    printf("*** ÁREA ***:\n");
+    printf("resultado da área: %f\n", resultadoarea = area1 > area2);
+    printf("*** PIB ***:\n");
+    printf("resultado do pib: %f\n", resultadopib = pib1 > pib2);
+    printf("*** DENSIDADE ***:\n");
+    printf("resultado da densidade: %f\n", resultadodensidade = densidade1 < densidade2);
+    printf("*** PONTOS TURÍSTICOS ***:\n");
+    printf("resultado dos pontos turísticos: %i\n", resultadoptsturisticos = ptsturisticos1 > ptsturisticos2);
+    printf("*** PIB PER CAPTA ***:\n");
+    printf("resultado do pib per capta: %f\n", resultadopibper = pibper1 > pibper2);
 
     return 0;
 }

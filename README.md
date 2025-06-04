@@ -1,2 +1,2 @@
-# supertrunfonovato
-Super Trunfo Desafio Novato
+# supertrunfo
+Super Trunfo Desafio Mestre
